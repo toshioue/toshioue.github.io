@@ -2,18 +2,21 @@
 
 g {
    pointer-events: bounding-box;
-    opacity: 0.8;
+    /*opacity: 0.9;*/
     
 }
-g:hover {
+
+g[id^="p."]:hover:not(.no) { /* the .not class has been assigned to all lines to not include red fills on lines*/
     filter: brightness(10%);
     opacity: 1;
-    box-shadow: 0 0 20px yellow;
+    fill:red;
+    stroke: white;;
+    cursor: pointer;
   }
 
 
   body {
-    background-image: url("../back2.jpg");
+    background-image: url("../back.jpg");
     background-size: cover;
     background-repeat: no-repeat ;
     background-color: #cccccc;
