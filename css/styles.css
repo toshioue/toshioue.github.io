@@ -1,0 +1,20 @@
+/* this CSS will apply to the naiko.svg to add css effects */
+
+g {
+   pointer-events: bounding-box;
+    opacity: 0.8;
+    
+}
+g:hover {
+    filter: brightness(10%);
+    opacity: 1;
+    box-shadow: 0 0 20px yellow;
+  }
+
+
+  body {
+    background-image: url("../back2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-color: #cccccc;
+   }
